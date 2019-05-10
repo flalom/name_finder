@@ -21,7 +21,7 @@ fn main() {
         let number_char: u32 = number_char.trim().parse().unwrap(); 
            
 
-    for i in 1..=200 {
+    for i in 1..=300 {
         //for n in 1..=number_char{
             let sample_letter: Vec<_> = alphabet
                 .choose_multiple(&mut rand::thread_rng(), 1)
